@@ -29,10 +29,10 @@ linkedin_username: tim-acosta
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
+additional_links:
+- title: test
+  icon: fa-brands fa-medium
+  url: https://medium.com/@timacosta06
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -45,45 +45,75 @@ linkedin_username: tim-acosta
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name's Tim and I'm a software developer with a focus on mobile applications and Android development.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am most skilled in: <mark>Android</mark> and <mark>Kotlin</mark>
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: JetPackAtlas
+        link: github.com/timacosta
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  timacosta/JetpackAtlas
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: https://github.com/timacosta/JetpackAtlas
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Jetpack Compose Travel sample app using Clean Architecture + MVVM
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          I started this project as a way to learn about <mark>Jetpack Compose</mark> animations and it has since grown into a fully fledged app. I use this also as a sample for some of my Medium articles. 
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: Auxmoney
+        link: https://www.auxmoney.com
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        sub_title: Android Developer
+        caption: November 2021 - Present
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          auxmoney, a Düsseldorf, Germany-headquartered company building a digital lending platform for consumer credit in Europe
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            Building, mantaining and improving the Auxmoney Android App, +100K downloads.
+      - layout: left
+        title: Rindus
+        link: https://www.rindus.de
+        # link_text: boringcompany.com
+        sub_title: Android Developer
+        caption: November 2021 - Present
+        quote: >
+          Rindus, a Málaga, Spain-headquartered company helping companies to shape their development teams
+        description: | # this will include new lines to allow paragraphs
+            Providing service to Auxmoney partner.   
+        - layout: left
+        title: Rindus
+        link: https://www.rindus.de
+        # link_text: boringcompany.com
+        sub_title: Android Developer
+        caption: November 2021 - Present
+        quote: >
+          Rindus, a Málaga, Spain-headquartered company helping companies to shape their development teams
+        description: | # this will include new lines to allow paragraphs
+            Providing service to Auxmoney partner.  
+        - layout: left
+        title: Rindus
+        link: https://www.rindus.de
+        # link_text: boringcompany.com
+        sub_title: Android Developer
+        caption: November 2021 - Present
+        quote: >
+          Rindus, a Málaga, Spain-headquartered company helping companies to shape their development teams
+        description: | # this will include new lines to allow paragraphs
+            Providing service to Auxmoney partner.     
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)

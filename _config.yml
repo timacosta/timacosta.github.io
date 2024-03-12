@@ -94,7 +94,7 @@ content:
           Rindus, a Málaga, Spain-headquartered company helping companies to shape their development teams
         description: | # this will include new lines to allow paragraphs
             Providing service to Auxmoney partner.   
-        - layout: left
+      - layout: left
         title: Rindus
         link: https://www.rindus.de
         # link_text: boringcompany.com
@@ -104,7 +104,7 @@ content:
           Rindus, a Málaga, Spain-headquartered company helping companies to shape their development teams
         description: | # this will include new lines to allow paragraphs
             Providing service to Auxmoney partner.  
-        - layout: left
+      - layout: left
         title: Rindus
         link: https://www.rindus.de
         # link_text: boringcompany.com

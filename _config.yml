@@ -30,8 +30,8 @@ linkedin_username: tim-acosta
 
 # Additional icon links
 additional_links:
-- title: test
-  icon: fa-brands fa-medium
+- title: Medium
+  icon: fab fa-medium
   url: https://medium.com/@timacosta06
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
@@ -71,6 +71,22 @@ content:
         description: | # this will include new lines to allow paragraphs
           I started this project as a way to learn about <mark>Jetpack Compose</mark> animations and it has since grown into a fully fledged app. I use this also as a sample for some of my Medium articles. 
 
+      - layout: top-middle
+        title: PokeArch
+        link: github.com/timacosta
+        # link_text: Project Website
+        additional_links:
+          - title:  timacosta/PokeArch
+            icon: fab fa-github
+            url: https://github.com/timacosta/PokeArch
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Jetpack Compose Pokedex App using Clean Architecture + MVVM
+        description: | # this will include new lines to allow paragraphs
+          Project specifically build for Architect Coders by Antonio Leiva, using <mark>Jetpack Compose</mark>.
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -93,53 +109,63 @@ content:
         quote: >
           Rindus, a Málaga, Spain-headquartered company helping companies to shape their development teams
         description: | # this will include new lines to allow paragraphs
-            Providing service to Auxmoney partner.   
+            Providing service to Auxmoney partner as an Android Developer  
       - layout: left
-        title: Rindus
-        link: https://www.rindus.de
+        title: Ironhack
+        link: https://www.ironhack.com/us
+        # link_text: boringcompany.com
+        sub_title: Kotlin/Java SME
+        caption: May 2021 - April 2023
+        quote: >
+          Ironhack is a Global Tech School ranked top 2 worldwide, with multiple campuses worldwide
+        description: | # this will include new lines to allow paragraphs
+            While working at Ironhack as a contractor I was able to work on different educational projects as a Kotlin/Java Subject Matter Expert. I had to create Android/Kotlin educational content and teach about Java Spring Boot.
+      - layout: left
+        title: Freelance
         # link_text: boringcompany.com
         sub_title: Android Developer
-        caption: November 2021 - Present
-        quote: >
-          Rindus, a Málaga, Spain-headquartered company helping companies to shape their development teams
+        caption: May 2020 - April 2022
         description: | # this will include new lines to allow paragraphs
-            Providing service to Auxmoney partner.  
+            During this period I worked as freelancer for several Android projects and contributed to open source projects as well.
       - layout: left
-        title: Rindus
-        link: https://www.rindus.de
+        title: Atos
+        link: https://atos.net/en/
         # link_text: boringcompany.com
-        sub_title: Android Developer
-        caption: November 2021 - Present
+        sub_title: Knowledge Manager
+        caption: April 2015 - May 2021
         quote: >
-          Rindus, a Málaga, Spain-headquartered company helping companies to shape their development teams
+          Atos is a global leader in digital transformation
         description: | # this will include new lines to allow paragraphs
-            Providing service to Auxmoney partner.     
+            I started as a L1 Helpdesk Agent. Then I moved to working as a technical writer/knowledge manager and also working on automation projects. 
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+        title: UNED
+        caption: September 2021 - Present
+        sub_title: Computer Science University Degree
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      - layout: left
+        title: KeepCoding
+        caption: November 2020 - October 2021
+        sub_title: XI Bootcamp FullStack Mobile
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - layout: left
+        title: Centro Internacional Politécnico (CIP)
+        caption: November 2016 - October 2019
+        sub_title: Certificate of Higher Education in Multiplatform/Mobile Development
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      - layout: left
+        title: ULL / UNED
+        caption: November 2011 - October 2016
+        sub_title: Psychology University Degree
+
+   #- title: When I'm Not Programming
+    #layout: text
+    #content: | # this will include new lines to allow paragraphs
+    #  Alongside my interests software engineering some of my other interests and hobbies are:
+    #  - Cooking
 
 # Footer
 footer_show_references: true
